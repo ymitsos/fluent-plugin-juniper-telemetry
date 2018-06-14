@@ -75,7 +75,7 @@ module Fluent
             yield json_time, record
           end
         else
-          $log.warn "Recard type '#{record_type}' not supported"
+          $log.warn "Record type '#{record_type}' not supported"
         end
       end
     end
